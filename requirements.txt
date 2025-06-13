@@ -1,3 +1,4 @@
 fastapi==0.115.12
 openai-agents==0.0.16
 uvicorn==0.24.0 
+python-dotenv==1.1.0

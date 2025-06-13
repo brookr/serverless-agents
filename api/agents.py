@@ -3,6 +3,10 @@ import sys
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from agents import Agent, Runner, WebSearchTool, ModelSettings
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Load OpenAI API key from environment
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")

@@ -306,12 +306,6 @@ Then follow steps 2-4 above to configure Inngest.
 - **Cost Effective**: Pay per execution, not for idle time
 - **Global Edge**: Deploy close to your users
 
-## 🤝 Contributing
-
-We welcome contributions! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-📦 **Repository**: [https://github.com/brookr/serverless-agents](https://github.com/brookr/serverless-agents)
-
 ## 📄 License
 
 This project is licensed under CC0 1.0 Universal - see the [LICENSE.md](LICENSE.md) file.
@@ -338,6 +332,21 @@ This project is licensed under CC0 1.0 Universal - see the [LICENSE.md](LICENSE.
 3. **Modify for Your Use Case**: Replace the newsletter example with your own AI workflow
 4. **Deploy**: Push to production on Vercel
 5. **Share**: Let us know what you build!
+
+### 🤝 Contributing
+
+We welcome contributions! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+📦 **Repository**: [https://github.com/brookr/serverless-agents](https://github.com/brookr/serverless-agents)
+
+### Contributors
+
+Author: [@brookr](https://github.com/brookr)
+
+Contributors:
+
+- [@chrisg220](https://github.com/chrisg220)
+- YOUR NAME HERE!
 
 ---
 
