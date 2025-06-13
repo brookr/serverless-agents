@@ -5,8 +5,8 @@ from pydantic import BaseModel
 from agents import Agent, Runner, WebSearchTool, ModelSettings
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+# Load environment variables from .env.local file. If using .env, don't pass the '.env.local' arg.
+load_dotenv('.env.local')
 
 # Load OpenAI API key from environment
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
