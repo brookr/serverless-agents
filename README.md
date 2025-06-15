@@ -137,6 +137,13 @@ research_agent = Agent(
 @app.post("/research")
 async def research_endpoint(request: TopicsRequest):
     # Agent logic here
+
+# Example agent structure
+formatting_agent = Agent(
+    name="Formatting Agent", 
+    model="o3", # Your OpenAI Org must be verified to use o3. Else use a different model.
+    ...
+)
 ```
 
 ### 2. Inngest Workflows
@@ -247,6 +254,8 @@ This starter uses a newsletter generator as an example, but the architecture sup
      - `/api/agents/research` - AI research agent
      - `/api/agents/format` - AI formatting agent
      - `/api/inngest` - Inngest webhook
+
+⚠️ **Important**: After pressing the Generate Newsletter button, if the progress spinner spins infinitely and you get an error message similar to, "Your organization must be verified to use the model `o3-2025-04-16`", then you may need to [verify your organization on OpenAI](https://platform.openai.com/settings/organization/general). If you don't verify, you can switch your model from "o3" to something else like "gpt-4.1" to get this working.
 
 ### Manual Deployment
 
